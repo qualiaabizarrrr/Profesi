@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Engineer"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="200dp"
+                android:src="@drawable/engineer"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Engineer"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Engineer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Insinyur atau engineer merancang, mengembangkan, dan memelihara sistem atau produk dalam berbagai bidang seperti konstruksi, teknologi."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Kualifikasi dan Pendidikan Engineer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Pendidikan Formal: Minimal memiliki gelar Sarjana Teknik (S.T.) di bidang spesifik seperti teknik mesin, teknik elektro, teknik sipil, dll.
+                                \n- Sertifikasi: Beberapa bidang teknik memerlukan sertifikasi profesional untuk praktik resmi.
+                                \n- Kemampuan Teknis: Menguasai software atau alat teknis yang relevan dengan bidangnya."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/engineer2"
+                    android:contentDescription="Tambah Icon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas Utama Enineer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Riset dan Desain: Mengembangkan konsep, merancang produk, atau sistem baru sesuai kebutuhan.
+                                \n2. Pengembangan Teknologi: Menggunakan teknologi terkini untuk meningkatkan efisiensi dan kualitas.
+                                \n3. Pemecahan Masalah: Menyelesaikan masalah teknis atau operasional dalam proyek atau proses produksi.
+                                \n4. Pengawasan Proyek: Memastikan proyek berjalan sesuai rencana, anggaran, dan standar keselamatan."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis Enigneer berdasarkan Bidangnya"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Teknik Sipil (Civil Engineer): Membangun infrastruktur seperti jembatan, jalan, dan gedung.
+                                \n2. Teknik Mesin (Mechanical Engineer): Merancang dan mengembangkan mesin atau sistem mekanik.
+                                \n3. Teknik Elektro (Electrical Engineer): Mengembangkan perangkat elektronik dan sistem kelistrikan.
+                                \n4. Teknik Informatika (Software Engineer): Membuat aplikasi, perangkat lunak, dan sistem komputer.
+                                \n5. Teknik Kimia (Chemical Engineer): Mengolah bahan kimia menjadi produk industri.
+                                \n6. Teknik Lingkungan (Environmental Engineer): Mengelola dampak lingkungan dan solusi ramah lingkungan.
+                                \n7. Teknik Industri (Industrial Engineer): Meningkatkan efisiensi proses produksi dan manajemen."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Tantangan profesi Engineer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Menghadapi perkembangan teknologi yang cepat dan terus berubah.
+                                \n- Menyelesaikan masalah teknis kompleks dengan solusi yang efisien dan aman.
+                                \n- Menjaga keseimbangan antara biaya, waktu, dan kualitas dalam proyek."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Peran Sosial Engineer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Meningkatkan kualitas hidup masyarakat melalui inovasi teknologi.
+                                \n- Mendukung pembangunan ekonomi dan infrastruktur yang berkelanjutan.
+                                \n- Berkontribusi pada pelestarian lingkungan melalui desain yang ramah lingkungan."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

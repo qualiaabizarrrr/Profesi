@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Programmer"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="210dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="230dp"
+                android:src="@drawable/programmer"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Programmer"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Programmer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Programmer adalah profesional yang menulis dan mengembangkan kode untuk membuat aplikasi atau sistem komputer. Mereka menggunakan logika dan kreativitas untuk memecahkan masalah teknologi."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Pendidikan dan Karir Programmer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Pendidikan:
+                                \n- Gelar  Ilmu Komputer, atau bidang terkait.
+                                \n- Sertifikasi online dari berbagai platform.
+                                \nKarier:
+                                \n- Junior Programmer
+                                \n- Software Engineer
+                                \n- Lead Developer
+                                \n- CTO (Chief Technology Officer)"
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas Utama Programmer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Menulis Kode: Membuat program menggunakan bahasa pemrograman seperti Python, Java, C++, atau lainnya.
+                                \n2. Memahami Kebutuhan Klien: Menganalisis kebutuhan untuk menciptakan perangkat lunak atau aplikasi yang sesuai.
+                                \n3. Mengembangkan Perangkat Lunak: Membuat aplikasi desktop, web, atau mobile berdasarkan spesifikasi.
+                                \n4. Mengidentifikasi dan Memperbaiki Bug: Menguji program untuk memastikan tidak ada kesalahan dalam kode.
+                                \n5. Mengoptimalkan Kode: Meningkatkan efisiensi program agar berjalan lebih cepat dan stabil.
+                                \n6. Bekerja Sama dengan Tim: Berkolaborasi dengan desainer, pengembang, dan pemangku kepentingan lainnya dalam proyek.
+                                \n7. Mendokumentasikan Kode: Menulis dokumentasi agar kode mudah dipahami oleh tim lain."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis Programmer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="a. Front-End Developer -> Fokus pada tampilan antarmuka pengguna (UI) dan pengalaman pengguna (UX) dalam aplikasi web atau mobile.
+                                \nb. Back-End Developer -> Bertanggung jawab pada logika bisnis, server, dan database di balik layar aplikasi.
+                                \nc. Full-Stack Developer -> Menguasai pengembangan front-end dan back-end sekaligus.
+                                \nd. Mobile Developer -> Mengembangkan aplikasi untuk platform mobile seperti Android atau iOS.
+                                \ne. Game Developer -> Membuat game untuk platform PC, konsol, atau mobile.
+                                \nf. Data Scientist -> Mengolah data besar menggunakan bahasa seperti Python atau R.
+                                \ng. DevOps Engineer -> Meningkatkan proses pengembangan perangkat lunak dengan otomatisasi dan infrastruktur."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Peluang profesi Programmer"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Perusahaan Teknologi: Bekerja di startup atau perusahaan besar seperti Google, Microsoft, atau Tokopedia.
+                                \n- Freelance Programmer: Mengambil proyek mandiri melalui platform seperti Upwork atau Fiverr.
+                                \n- Pemerintah: Mengembangkan sistem teknologi untuk layanan publik.
+                                \n- Konsultan Teknologi: Memberikan solusi IT kepada klien.
+                                \n- Wirausaha: Membangun produk perangkat lunak atau aplikasi sendiri."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/programmer2"
+                android:contentDescription="Tambah Icon" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

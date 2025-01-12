@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Jurnalis"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="230dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="170dp"
+                android:src="@drawable/jurnalis"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jurnalis"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian jurnalis"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Jurnalis melaporkan berita dan informasi untuk disampaikan kepada publik melalui media cetak, televisi, atau online. Mereka bertugas menggali fakta dan menyampaikan informasi secara objektif."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Kualifikasi dan Pendidikan Jurnalis"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Pendidikan: Gelar sarjana di bidang jurnalistik, komunikasi, atau media adalah nilai tambah, meskipun tidak selalu wajib.
+                                \n- Karier:
+                                \n    - Magang di media massa.
+                                \n    - Posisi awal seperti reporter lapangan.
+                                \n    - Beranjak menjadi editor, produser, atau bahkan pemimpin redaksi."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas Utama Jurnalis"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Kemampuan Menulis: Menguasai teknik penulisan berita yang jelas, ringkas, dan informatif.
+                                \n2. Keterampilan Komunikasi: Mampu melakukan wawancara dan menjalin hubungan dengan narasumber.
+                                \n3. Pemahaman Etika Jurnalistik: Menjunjung tinggi prinsip objektivitas, kejujuran, dan integritas.
+                                \n4. Kemampuan Riset: Mampu mencari dan menganalisis informasi dari berbagai sumber.
+                                \n5, Adaptasi Teknologi: Menguasai perangkat lunak pengeditan, kamera, atau alat digital untuk media online.
+                                \n6. Kecakapan Multitasking: Mampu menangani berbagai tugas sekaligus, terutama dalam situasi mendesak."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis-jenis jurnalis"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Jurnalis Cetak: Bertugas menulis untuk media cetak seperti koran dan majalah.
+                                \n- Jurnalis Siaran: Melaporkan berita untuk radio atau televisi.
+                                \n- Jurnalis Digital: Fokus pada penulisan dan publikasi untuk platform online.
+                                \n- Fotojurnalis: Mengambil dan menyajikan berita dalam bentuk gambar.
+                                \n- Jurnalis Investigasi: Mengungkap informasi tersembunyi melalui penelitian mendalam.\n"
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/jurnalis1"
+                    android:contentDescription="Tambah Icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Sub-Spesialisasi"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Setelah menyelesaikan pendidikan spesialis, dokter dapat melanjutkan ke sub-spesialisasi, misalnya:
+                                \n-Kardiologi Intervensi: Untuk dokter jantung.
+                                \n-Bedah Onkologi: Untuk dokter bedah yang fokus pada kanker.
+                                \n-Perinatologi: Untuk dokter anak yang menangani bayi baru lahir."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

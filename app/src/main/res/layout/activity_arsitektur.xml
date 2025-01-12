@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Arsitektur"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="220dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="230dp"
+                android:src="@drawable/arsitek"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arsitektur"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Arsitektur"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Arsitek merancang bangunan dan ruang dengan mempertimbangkan fungsi, estetika, dan keamanan. Mereka bekerja untuk menciptakan lingkungan yang nyaman dan sesuai dengan kebutuhan pengguna."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Pendidikan dan Karir Arsitektur"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Pendidikan:
+                                \n- Gelar Sarjana Arsitektur (S1) atau S2
+                                \n- Sertifikasi profesi (misalnya, IAI – Ikatan Arsitek Indonesia).
+                                \n- Karier:
+                                \n- Junior Architect
+                                \n- Senior Architect
+                                \n- Principal Architect"
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas utama Arsitektur"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Merancang Bangunan: Membuat desain bangunan, baik dalam bentuk konsep visual maupun teknis.
+                                \n2. Menganalisis Lokasi: Mengevaluasi kondisi lokasi untuk memastikan desain sesuai dengan lingkungan, iklim, dan peraturan setempat.
+                                \n3. Membuat Rencana Detail: Menyusun gambar teknik, spesifikasi material, dan estimasi biaya.
+                                \n4. Berkoordinasi dengan Klien: Memahami kebutuhan, preferensi, dan anggaran klien untuk menciptakan desain yang sesuai.
+                                \n5. Mengawasi Konstruksi: Memastikan bahwa pembangunan berjalan sesuai dengan desain, anggaran, dan jadwal yang telah ditentukan.
+                                \n6. Mengintegrasikan Teknologi: Memanfaatkan perangkat lunak seperti AutoCAD, SketchUp, atau Revit untuk menghasilkan model 3D dan dokumen teknik."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis-jenis Arsitetur"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Arsitek Perumahan: Merancang rumah dan hunian lainnya.
+                                \n2. Arsitek Komersial: Fokus pada desain bangunan komersial, seperti kantor, mall, atau hotel.
+                                \n3. Arsitek Lanskap: Merancang taman, ruang terbuka, dan area hijau lainnya.
+                                \n4. Arsitek Interior: Mengkhususkan diri dalam desain ruang dalam bangunan.
+                                \n5. Arsitek Perkotaan: Menyusun rencana tata kota atau perumahan skala besar.
+                                \n6. Arsitek Restorasi: Memperbaiki dan melestarikan bangunan bersejarah."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Peluan profesi Arsitektur"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Konsultan Desain: Menyediakan layanan desain untuk klien perorangan atau perusahaan.
+                                \n- Firma Arsitektur: Bekerja dalam tim di perusahaan arsitektur besar.
+                                \n- Pemerintah: Berkontribusi dalam proyek infrastruktur publik atau tata kota.
+                                \n- Freelance Arsitek: Menerima proyek secara mandiri.
+                                \n- Pendidikan: Mengajar di universitas atau memberikan pelatihan desain."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/arsitektur2"
+                android:contentDescription="Tambah Icon" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

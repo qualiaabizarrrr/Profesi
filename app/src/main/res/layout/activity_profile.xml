@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#596854"
+        android:elevation="4dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@drawable/baground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/judulprofile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile Pengguna"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="80dp"
+                android:textColor="#596854"
+                android:layout_marginBottom="10dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#596854" />
+
+            <EditText
+                android:id="@+id/namalengkap"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Masukkan Nama Lengkap"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#596854"
+                android:background="@drawable/edittext_border"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Lahir"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#596854" />
+
+            <EditText
+                android:id="@+id/tanggal"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Masukkan Tanggal Lahir"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#596854"
+                android:background="@drawable/edittext_border"
+                android:inputType="text"
+                android:focusableInTouchMode="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#596854" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Masukkan Email"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#596854"
+                android:background="@drawable/edittext_border"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#596854" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Masukkan Username"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#596854"
+                android:background="@drawable/edittext_border"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                android:textColor="#596854" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Masukkan Password"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#596854"
+                android:background="@drawable/edittext_border"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

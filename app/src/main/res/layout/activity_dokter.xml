@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Dokter"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="240dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="170dp"
+                android:src="@drawable/dokter"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dokter"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Dokter"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Dokter adalah seorang profesional di bidang kesehatan yang bertugas mendiagnosis, merawat, dan memberikan pengobatan kepada pasien."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Pendidikan untuk Menjadi Dokter"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Sarjana Kedokteran (S1 Dokter)\n- Koasistensi (Profesi Dokter)\n- Ujian Kompetensi Dokter\n- Spesialisasi (PPDS)"
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas dan Peran Dokter"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Mendiagnosis penyakit berdasarkan gejala dan hasil pemeriksaan.
+                                \n2.Memberikan pengobatan atau tindakan medis sesuai kebutuhan pasien.
+                                \n3.Melakukan pencegahan penyakit melalui edukasi kesehatan.
+                                \n4.Menjalankan prosedur medis, seperti operasi, pemeriksaan laboratorium.
+                                \n5.Membantu penelitian medis untuk pengembangan ilmu kedokteran."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis Dokter dan Spesialis"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="a. Dokter Umum, merupakan dokter yang menangani masalah kesehatan dasar dan merujuk pasien ke spesialis jika diperlukan.
+                                \nb. Dokter Spesialis
+                                \nBerikut adalah beberapa spesialisasi dokter:
+                                \n-Spesialis Anak (Sp.A): Fokus pada kesehatan bayi, anak-anak, dan remaja.
+                                \n-Spesialis Bedah (Sp.B): Menangani masalah kesehatan melalui tindakan operasi.
+                                \n-Spesialis Jantung dan Pembuluh Darah (Sp.JP): Ahli dalam menangani penyakit kardiovaskular.
+                                \n-Spesialis Penyakit Dalam (Sp.PD): Fokus pada penyakit organ dalam seperti diabetes, hipertensi, atau gangguan ginjal.
+                                \n-Spesialis Kulit dan Kelamin (Sp.KK): Menangani masalah kulit dan penyakit menular seksual.
+                                \n-Spesialis Mata (Sp.M): Fokus pada kesehatan mata, seperti katarak atau gangguan penglihatan.
+                                \n-Spesialis Kandungan (Sp.OG): Menangani kehamilan, persalinan, dan kesehatan reproduksi wanita.
+                                \n-Spesialis Saraf (Sp.N): Ahli dalam penyakit sistem saraf seperti stroke atau epilepsi.
+                                \n-Spesialis Gigi dan Mulut (Sp.Perio, Sp.Ort, dll.): Fokus pada kesehatan gigi, gusi, dan mulut.
+                                \n-Spesialis Rehabilitasi Medis (Sp.KFR): Menangani pemulihan fisik pasien setelah cedera atau penyakit kronis."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Sub-Spesialisasi"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Setelah menyelesaikan pendidikan spesialis, dokter dapat melanjutkan ke sub-spesialisasi, misalnya:
+                                \n-Kardiologi Intervensi: Untuk dokter jantung.
+                                \n-Bedah Onkologi: Untuk dokter bedah yang fokus pada kanker.
+                                \n-Perinatologi: Untuk dokter anak yang menangani bayi baru lahir."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/dokter2"
+                android:contentDescription="Tambah Icon" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/baground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Chef"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="250dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="190dp"
+                android:src="@drawable/chef"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chef"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Chef"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Chef adalah seorang profesional yang bertanggung jawab atas persiapan, penyajian, dan inovasi dalam dunia kuliner. Chef biasanya bekerja di restoran, hotel, kapal pesiar, atau usaha katering, dengan tugas utama menciptakan hidangan yang lezat, menarik, dan sesuai standar."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Pendidikan Chef"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Lulusan sekolah kuliner atau pelatihan formal dalam bidang tata boga.\n- Belajar langsung dari pengalaman (on-the-job training)."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas Utama Chef"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Merencanakan Menu: Membuat variasi menu yang kreatif dan sesuai dengan tema atau kebutuhan restoran.
+                                \n2. Mengelola Dapur: Memastikan dapur berjalan efisien, termasuk mengatur tugas staf dapur.
+                                \n3. Memasak Hidangan: Menyiapkan makanan dengan teknik kuliner yang baik dan menjaga kualitas rasa.
+                                \n4. Mengontrol Bahan Baku: Mengawasi pemesanan, penggunaan, dan penyimpanan bahan makanan agar tetap segar dan berkualitas.
+                                \n5. Melatih Staf Dapur: Memberikan pelatihan kepada koki junior atau staf dapur lainnya.
+                                \n6. Menjaga Kebersihan: Memastikan dapur mematuhi standar kebersihan dan keamanan pangan.
+                                \7. Inovasi Kuliner: Mengembangkan resep baru untuk menarik pelanggan."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis - jenis Chef"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Executive Chef: Memimpin dapur secara keseluruhan, termasuk perencanaan menu dan manajemen staf.
+                                \n- Sous Chef: Wakil dari Executive Chef yang bertugas membantu mengawasi operasional dapur.
+                                \n- Pastry Chef: Spesialis dalam pembuatan kue, roti, dan dessert.
+                                \n- Line Chef (Chef de Partie): Bertanggung jawab atas bagian tertentu, seperti masakan utama, salad, atau sup.
+                                \n- Personal Chef: Menyediakan layanan memasak pribadi untuk keluarga atau individu.
+                                \n- Private Chef: Bekerja eksklusif untuk satu klien atau keluarga.
+                                \n- Commis Chef: Koki pemula yang biasanya membantu chef senior."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Peluang profesi Chef"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Restoran dan Hotel: Menyajikan makanan berkualitas tinggi untuk tamu.
+                                \n2. Kapal Pesiar: Memasak untuk wisatawan dalam perjalanan laut.
+                                \n3. Catering: Menyediakan makanan untuk acara pernikahan, konferensi, atau pesta.
+                                \n4. Content Creator: Berbagi resep dan tips memasak melalui blog, YouTube, atau media sosial.
+                                \n5. Chef Akademik: Mengajar di sekolah kuliner atau kursus masak."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/chef2"
+            android:contentDescription="Tambah Icon" />
+    </LinearLayout>
+</ScrollView>

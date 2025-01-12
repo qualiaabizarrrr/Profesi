@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/baground"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#596854"
+            android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:paddingBottom="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profesi Perawat"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#596854" />
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="230dp"
+                android:src="@drawable/iconback"
+                android:contentDescription="Tambah Icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:paddingBottom="16dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="190dp"
+                android:src="@drawable/perawat"
+                android:layout_marginEnd="16dp"
+                android:background="#9D9E9C"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perawat"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pengertian Perawat"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Perawat adalah tenaga kesehatan yang merawat pasien dengan memberikan perhatian medis dan emosional. Mereka bekerja sama dengan dokter untuk memastikan pasien mendapatkan perawatan yang optimal."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="2dp"
+                    android:text="Pendidikan Perawat"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="Pendidikan:
+                    \n1. Diploma Keperawatan (D3) atau Sarjana Keperawatan (S1).
+                    \n2. Pendidikan Profesi Ners untuk mendapatkan lisensi praktik."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tugas utama Perawat"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="1. Memberikan Perawatan: Menangani kebutuhan medis pasien, seperti pemberian obat, perawatan luka, dan pemasangan infus.
+                                \n2. Memantau Kondisi Pasien: Memonitor tanda vital, seperti suhu tubuh, tekanan darah, dan denyut jantung.
+                                \n3. Memberikan Edukasi Kesehatan: Mengajarkan pasien dan keluarganya cara menjaga kesehatan, seperti pola makan atau cara merawat luka.
+                                \n4. Membantu Prosedur Medis: Bekerja sama dengan dokter dalam operasi atau pemeriksaan medis lainnya.
+                                \n5. Mendukung Kesejahteraan Emosional: Memberikan dukungan emosional kepada pasien yang sedang mengalami stres atau trauma.
+                                \n6. Mencatat Perkembangan Pasien: Menyusun laporan medis untuk mendokumentasikan kondisi pasien secara akurat.
+                                \n7. Menjaga Kebersihan: Memastikan lingkungan pasien steril dan nyaman."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Jenis-jenis Perawat"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Perawat Umum: Memberikan pelayanan kesehatan dasar di rumah sakit atau klinik.
+                                \n- Perawat ICU: Menangani pasien dalam kondisi kritis.
+                                \n- Perawat Anak (Pediatrik): Fokus pada perawatan bayi, anak-anak, dan remaja.
+                                \n- Perawat Geriatri: Mengkhususkan diri pada perawatan lansia.
+                                \n- Perawat Bedah: Membantu dokter bedah selama operasi.
+                                \n- Perawat Komunitas: Bekerja di masyarakat untuk meningkatkan kesadaran kesehatan.
+                                \n- Perawat Psikiatri: Mengelola pasien dengan gangguan kesehatan mental."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:text="Peluan profesi Perawat"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:textColor="#596854" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="4dp"
+                    android:text="- Rumah Sakit: Baik di fasilitas pemerintah maupun swasta.
+                                \n- Klinik atau Puskesmas: Menangani pelayanan kesehatan primer.
+                                \n- Perawatan di Rumah (Home Care): Merawat pasien di rumah mereka.
+                                \n- Perusahaan: Sebagai perawat korporat untuk karyawan.
+                                \n- Luar Negeri: Peluang kerja di negara yang membutuhkan tenaga perawat, seperti Jepang, Arab Saudi, atau negara-negara Eropa."
+                    android:textSize="11dp"
+                    android:textColor="#596854" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/perawat1"
+                    android:contentDescription="Tambah Icon"
+                    android:layout_marginBottom="12dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/perawat2"
+                    android:contentDescription="Tambah Icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
